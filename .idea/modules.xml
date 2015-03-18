@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/scalaworldwind.iml" filepath="$PROJECT_DIR$/scalaworldwind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaworldwind-master.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaworldwind-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaworldwind-master-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaworldwind-master-build.iml" />
     </modules>
   </component>
 </project>
-
