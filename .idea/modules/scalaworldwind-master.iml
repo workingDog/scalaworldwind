@@ -71,7 +71,6 @@
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.scala-sbt:tracking:0.13.7:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.scala-sbt.ivy:ivy:2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.scala-tools.sbinary:sbinary_2.10:0.4.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scalafx:scalafx_2.11:8.0.31-R7:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.spire-math:jawn-parser_2.10:0.6.0:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="SBT: org.spire-math:json4s-support_2.10:0.6.0:jar" level="project" />
     <orderEntry type="module-library">
@@ -91,5 +90,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="SBT: org.scalafx:scalafx_2.11:8.0.40-R8:jar" level="project" />
   </component>
 </module>

@@ -3,6 +3,7 @@ package scala.worldwind.fx
 import java.awt.Dimension
 import javax.swing.SwingUtilities
 import gov.nasa.worldwind.BasicModel
+import gov.nasa.worldwind.layers.Earth.OSMMapnikLayer
 import scalafx.application.JFXApp
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.embed.swing.SwingNode
@@ -23,7 +24,7 @@ object FXHelloWorldWind extends JFXApp {
   val ws = new Dimension(1000, 800)
   val swingNode = new SwingNode()
   val root = new StackPane()
-  root.getChildren().add(swingNode)
+  root.getChildren.add(swingNode)
 
   stage = new PrimaryStage {
     title = "ScalaFX Hello World"
@@ -34,9 +35,10 @@ object FXHelloWorldWind extends JFXApp {
   stage.show()
 
   SwingUtilities.invokeLater(new Runnable {
-    def run {
+    def run() {
       val fxPanel = WWfxPanel(swingNode, ws)
       fxPanel.getWwd.setModel(new BasicModel)
+    //  fxPanel.getWwd.getModel.getLayers.add(new OSMMapnikLayer())
     }
   })
 

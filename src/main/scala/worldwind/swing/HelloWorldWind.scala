@@ -21,11 +21,11 @@ object HelloWorldWind extends javax.swing.JFrame {
     }
 
     java.awt.EventQueue.invokeLater(new Runnable {
-      def run {
+      def run() {
         val appPanel = WWswingPanel(new Dimension(1000, 800), true)
         appPanel.getWwd.setModel(new BasicModel)
         getContentPane.add(appPanel, java.awt.BorderLayout.CENTER)
-        pack
+        pack()
         setVisible(true)
       }
     })
